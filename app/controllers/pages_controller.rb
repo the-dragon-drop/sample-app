@@ -15,6 +15,6 @@ class PagesController < ApplicationController
     y = 6
     @sum = x + y
     @current_time = Time.now.strftime('%l:%M %p')
-    render 'clock.html'
+    render 'clock.html.erb'
   end
 end
